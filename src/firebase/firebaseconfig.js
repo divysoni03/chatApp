@@ -4,7 +4,6 @@ import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
   // apiKey: FIREBASE_API_KEY,
-  apiKey: "AIzaSyB4yNnoLLlRusCRCL2ddFc8VypgJMOrPRI",
   authDomain: "chatbox-f135e.firebaseapp.com",
   projectId: "chatbox-f135e",
   storageBucket: "chatbox-f135e.appspot.com",
