@@ -1,0 +1,138 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(assets/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+form{
+  border: 2px solid #837ee7;
+  width: 400px;
+  padding:30px;
+  border-radius: 30px;
+  text-align: center;
+  background-color:rgba(131, 126, 231,.2);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+form h1 {
+  font-size: 42px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #837ee7;
+  text-shadow: 1px 1px 1px black;
+}
+form input{
+  border: none;
+  border-bottom: 2px solid #837EE5;
+  width: 100%;
+  margin-top: 30px;
+  font-size: 20px;
+  background-color: transparent;
+  padding-bottom: 5px;
+}
+form input:focus{
+  outline: none;
+}
+form input::placeholder{
+  color: black;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  opacity: .6;
+}
+form button{
+  background-color: #837EE5;
+  border: 1px solid black;
+  width: 100%;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form button:hover {
+  transform: translate(-2px, -4px);
+  box-shadow: 2px 3px 0px black;
+  transition: .3s;
+}
+form button:not(:hover) {
+  filter: opacity(1);
+  transition: .3s;
+}
+form a { 
+  color: black;
+  font-size: 18px;
+  font-family: verdana;
+  font-weight: 400;
+  text-decoration: none;
+  margin-bottom: 10px
+}
+form a:hover {
+  border-bottom: 1px solid black;
+}
+
+
+header{
+  background-color: #EFEFF1;
+  padding: 20px 5px;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+footer input{
+  border: none;
+  background-color: #f2f2f2;
+  flex: 1;
+  font-size: 20px;
+  padding: 20px;
+}
+footer button{
+  border: none;
+  background-color: #837EE5;
+  width: 60px;
+}
+.fa-comment-dots{
+  font-size: 24px;
+}
+.fa-paper-plane{
+  font-size: 24px;
+  color: white;
+}
+
+h2{
+  margin: 0;
+  padding: 0;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+.chatright{
+  display: inline-block;
+  padding: 15px;
+  background-color: #E8E6FE;
+  border-radius: 8px;
+}
+.chatleft{
+  border-radius: 8px;
+  display: inline-block;
+  padding: 8px;
+  background-color: #837EE5;
+}
+
+.txtright{
+  text-align: right;
+}
+.txtleft{
+  text-align: left;
+}
